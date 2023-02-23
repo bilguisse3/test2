@@ -1,0 +1,141 @@
+
+*{
+   
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+ 
+    background-image: url('image/tc.jpg');
+}
+.container{
+width: 70%;
+margin: 50px auto;
+
+
+}
+.contact-left{
+    text-align: center;
+}
+.contact-box{
+    background: gainsboro;
+    display: flex;
+    border-radius: 10px;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 10px;
+ 
+}
+span{
+    color: green;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 90px;
+    background-image: url('image/im1.jpg');
+    color: #fff;
+    text-align: center;
+    top: 50px;  
+}
+h1{
+    margin-bottom: 20px;
+}
+.container p{
+
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    top: 30px;
+}
+form .btn{
+    background: green;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    width: 230px;
+    transition: ease .20s;
+    height: 60px;
+    color: #fff;
+    
+}
+form input[type=text]{
+    width: 90%;
+    padding: 5px;
+    font-size: 16px; 
+    margin-left: 4%; 
+    height: 50px;
+    border: 1px solid#fff;
+    left: 10px;
+    text-align: left;
+    margin-top: -40%;
+    
+    
+}
+.contact-right h1{
+    padding: 20%;
+    margin-top: 30%;
+    
+}
+.contact-right h2{
+
+margin-top: -40%;
+height: 10%;
+padding: 30px;
+}
+
+.contact-right .btn{
+   
+    background: green;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    width: 210px;
+    transition: ease .20s;
+    height: 80px;
+    opacity: 40%;
+    border: 1px solid#fff;
+    color: #fff;
+    margin-top: -10%;
+    
+}
+.bg-icon{
+    border-radius: 50%;
+    top: -100px;
+}
+.input-icon i{
+    position: relative;
+   right: 42%;
+    top: -200%;
+    padding:-30%;
+    margin-top: -48%;
+    height: 60%;
+    
+    
+}
+.flex-icon{
+    display: flex;
+    justify-content: center;
+}
+.box-icon{
+    margin: 1em;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0em 2em 0 rgba(0, 0, 0, 0.1);
+}
+.box-icon i{
+    padding-top: 23px;
+}
+
+@media screen and (max-width: 768px){
+  .contact-box{ 
+    flex-direction: column;
+    height: auto;
+ }
+}
